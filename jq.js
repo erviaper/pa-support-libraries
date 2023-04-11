@@ -1848,3 +1848,4 @@ const jq = {compile, prettyPrint}
 // Delete these two lines for a non-module version (CORS-safe)
 export { compile, prettyPrint, compileNode }
 export default jq
+console.log('running lib');

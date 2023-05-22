@@ -1,4 +1,5 @@
 function evaluateFormula(formulaValue) {
+  console.log('in github evaluateFormula');
   var variableIndeces = getIndecesOf('{{', formulaValue);
   var tempInputVariables = [];
   variableIndeces.forEach(thisIndex => {
